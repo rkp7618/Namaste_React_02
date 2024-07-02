@@ -1,3 +1,59 @@
-#heading{
-    color: blue;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 150px;
+}
+.nav-items>ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+}
+.nav-items>ul>li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-card{
+    background-color:#D3D3D3;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+}
+.search{
+    padding: 10px;
+}
+.res-logo{
+    width: 100%;
+}
+.res-card:hover{
+    cursor: pointer;
+    border: 1px solid black;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.filter-btn{
+    margin: 5px;
+    cursor: pointer;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-cards{
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.447);
+}
+.login{
+    padding: 0 20px;
+    cursor: pointer;
+}
+.filter{
+    display: flex;
 }
